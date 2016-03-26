@@ -1,0 +1,21 @@
+<project name="antclass" basedir="." default="main">
+<target name="1">
+    <echo>print number 1
+	</echo>
+</target>	
+<target name="2">
+    <echo message="print number 2"/>
+</target>	
+<target name="3">
+    <echo>print number 3
+	</echo>
+</target>	
+<target name="4">
+    <echo>print number 4
+	</echo>
+</target>
+<target name="main" depends="1,2,3,4">
+    <echo>print number 5
+	</echo>
+</target>	
+</project>	
